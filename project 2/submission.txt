@@ -1,0 +1,45 @@
+Project Submission Details
+
+1. Personal Information
+   Name:Lavudya Ramcharan Tej
+   Contact Number:8143842289
+   Email:lavudyaramcharan1912@gmail.com
+
+2. Project Links
+   - Live Website: https://mytalorzone.vercel.app
+   - GitHub Repository: [If applicable]
+
+3. Project Overview
+   - Frontend: HTML, CSS, JavaScript
+   - Backend Integration: Node.js/Express
+   - Database: MongoDB
+   - Authentication: Session-based
+   - Responsive Design: Mobile-first approach
+
+4. Features Implemented
+   - Product catalog with filtering
+   - Shopping cart functionality
+   - User authentication
+   - Order management
+   - Responsive design
+   - Search functionality
+
+5. Technical Highlights
+   - Modular JavaScript architecture
+   - Clean code practices
+   - Error handling
+   - Performance optimization
+   - Security best practices
+
+6. Testing
+   - Cross-browser compatibility
+   - Mobile responsiveness
+   - Core functionality
+   - Error scenarios
+
+7. Submission Package Contents
+   - Source code (ZIP)
+   - README.md
+   - Documentation
+   - Screenshots
+   - Resume

@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop - Mytalorzone By Sahiba</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/navbar.css">
+    <link rel="stylesheet" href="/css/products.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    
+    <nav class="navbar">
+        <div class="search-bar">
+            <input type="text" id="searchInput" placeholder="Search for products">
+            <button onclick="performSearch()">Search</button>
+        </div>
+        <div class="profile" onclick="toggleProfileMenu()">
+            <i class="fas fa-user"></i> Profile
+            <div class="profile-menu">
+                <a href="/html/profile.html">My Account</a>
+                <a href="/html/orders.html">Order History</a>
+                <a href="#">Log Out</a>
+            </div>
+        </div>
+    </nav>
+
+    <main class="shop-page">
+        <div class="product-filters">
+            <div class="filter-group">
+                <label for="category">Category:</label>
+                <select id="category">
+                    <option value="">All Categories</option>
+                </select>
+            </div>
+        </div>
+
+        <div id="productGrid" class="product-grid">
+            <!-- Products will be loaded here dynamically -->
+        </div>
+    </main>
+
+    <div id="productGrid" class="product-grid">
+        <div class="product">
+            <img src="https://cdn.shopify.com/s/files/1/0575/7013/5097/products/kurta-set1.jpg?v=1632156093" alt="Elegant Kurta Set">
+            <h3>Elegant Kurta Set</h3>
+            <p>Price: ₹1,999</p>
+            <button>Add to Cart</button>
+        </div>
+        <div class="product">
+            <img src="https://cdn.shopify.com/s/files/1/0575/7013/5097/products/anarkali.jpg?v=1632156100" alt="Floral Anarkali">
+            <h3>Floral Anarkali</h3>
+            <p>Price: ₹2,499</p>
+            <button>Add to Cart</button>
+        </div>
+        <div class="product">
+            <img src="https://cdn.shopify.com/s/files/1/0575/7013/5097/products/lehenga.jpg?v=1632156112" alt="Lehenga Set">
+            <h3>Lehenga Set</h3>
+            <p>Price: ₹3,999</p>
+            <button>Add to Cart</button>
+        </div>
+        <div class="product">
+            <img src="https://cdn.shopify.com/s/files/1/0575/7013/5097/products/pastel-saree.jpg?v=1632156120" alt="Pastel Saree">
+            <h3>Pastel Saree</h3>
+            <p>Price: ₹2,999</p>
+            <button>Add to Cart</button>
+        </div>
+        <div class="product">
+            <img src="https://cdn.shopify.com/s/files/1/0575/7013/5097/products/printed-dupatta.jpg?v=1632156128" alt="Printed Dupatta">
+            <h3>Printed Dupatta</h3>
+            <p>Price: ₹899</p>
+            <button>Add to Cart</button>
+        </div>
+        <div class="product">
+            <img src="https://cdn.shopify.com/s/files/1/0575/7013/5097/products/designer-gown.jpg?v=1632156135" alt="Designer Gown">
+            <h3>Designer Gown</h3>
+            <p>Price: ₹4,499</p>
+            <button>Add to Cart</button>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Contact Us</h3>
+                <p>Email: contact@mytalorzone.com</p>
+                <p>Phone: +1 234 567 890</p>
+            </div>
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="/about.html">About Us</a></li>
+                    <li><a href="/contact.html">Contact</a></li>
+                    <li><a href="/shipping.html">Shipping Info</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Follow Us</h3>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Mytalorzone By Sahiba. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script type="module" src="/js/navbar.js"></script>
+    <script type="module" src="/js/products.js"></script>
+    <script type="module" src="/js/search.js"></script>
+</body>
+</html>
